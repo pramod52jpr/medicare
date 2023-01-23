@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+*{
+  background-color: #def4fa;
+  margin: 0;
+}
+.container{
+  padding: 0px 70px;
+}
