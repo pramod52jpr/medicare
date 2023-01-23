@@ -1,0 +1,60 @@
+.main-container{
+    height: 450px;
+}
+.main-container .first{
+    height: 400px;
+    width: 45%;
+    float: left;
+}
+.main-container .first p:first-child{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.main-container .first h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin: 20px 0px;
+    color: rgb(57, 52, 79);
+}
+.main-container .first .desc{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+    line-height: 30px;
+}
+.main-container .first .button input:first-child{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(80, 80, 229);
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    transition-duration: 0.2s;
+}
+.main-container .first .button input:first-child:hover{
+    color: rgb(80, 80, 229);
+    background-color: whitesmoke;
+}
+.main-container .first .button input:last-child{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 60px;
+    margin-left: 10px;
+    color: rgb(80, 80, 229);
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    transition-duration: 0.2s;
+}
+.main-container .first .button input:last-child:hover{
+    color: white;
+    background-color: rgb(80, 80, 229);
+}
+.main-container .second{
+    height: 400px;
+    width: 45%;
+    float: right;
+    border-radius: 20px;
+    background-color: rgb(182, 189, 194);
+}

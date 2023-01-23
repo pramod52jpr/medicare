@@ -1,0 +1,58 @@
+.subs-container{
+    height: 350px;
+}
+.subs-container .subs{
+    background-color: rgb(66, 66, 249);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.subs-container .subs h2{
+    text-align: center;
+    color: white;
+    background-color: rgb(66, 66, 249);
+    font-weight: 100;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subs-container .subs p{
+    text-align: center;
+    color: white;
+    background-color: rgb(66, 66, 249);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.subs-container .subs .input{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(66, 66, 249);
+    margin: 50px 0px;
+}
+.subs-container .subs .input .input-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.subs-container .subs .input .input-data input{
+    width: 450px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subs-container .subs .input .input-data button{
+    border: none;
+    outline: none;
+    background-color: rgb(66, 66, 249);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
